@@ -1,0 +1,10 @@
+name: vite_plugin_dart_example
+description: Just an example for vite-plugin-dart
+version: 1.0.0
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+dependencies:
+  barcode: ^2.1.0
+  js: ^0.6.3
+  textifier: ^1.0.0
+  uuid: ^3.0.4

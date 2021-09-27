@@ -1,0 +1,23 @@
+{
+  "name": "vite_plugin_dart_example",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.42.1",
+    "vite": "^2.3.0"
+  },
+  "dependencies": {
+    "@iconify/icons-logos": "^1.1.10",
+    "@material/button": "^13.0.0",
+    "@material/card": "^13.0.0",
+    "@material/ripple": "^13.0.0",
+    "@material/textfield": "^13.0.0",
+    "@material/top-app-bar": "^13.0.0",
+    "@material/typography": "^13.0.0",
+    "ress": "^4.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+@use "ress/dist/ress.min.css";
+@use "@material/typography/mdc-typography";
+@use "@material/top-app-bar/mdc-top-app-bar";
+@use "@material/card/mdc-card";
+@use "@material/button/mdc-button";
+@use "@material/textfield/mdc-text-field";
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+main > div {
+  margin: 2rem 0;
+}
+
+.vpd-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#qrcode {
+  max-width: 200px;
+  align-self: center;
+}
+
+#uuidcard {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 16px;
+  max-width: 512px;
+  justify-content: space-between;
+  .mdc-card.mdc-card--outlined {
+    padding: 16px;
+  }
+  span {
+    text-align: center;
+  }
+  .mdc-touch-target-wrapper {
+    display: inline-flex;
+  }
+  button {
+    margin-left: 16px;
+  }
+}
+
+#canvascard {
+  padding: 16px;
+}
+
+#textart {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 2rem 0;
+}

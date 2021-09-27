@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A test page for vite-plugin-dart" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite Plugin Dart</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="mdc-typography">
+    <header class="mdc-top-app-bar">
+      <div class="mdc-top-app-bar__row">
+        <section
+          class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+        >
+          <span class="mdc-top-app-bar__title">Vite Plugin Dart</span>
+        </section>
+      </div>
+    </header>
+    <main class="mdc-top-app-bar--fixed-adjust vpd-center">
+      <div id="app"></div>
+      <div style="margin-top: 0;">
+        <a
+          href="https://github.com/GeopJr/vite-plugin-dart"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mdc-button mdc-button2 mdc-button--outlined"
+        >
+          <span class="mdc-button__ripple"></span>
+          <span class="mdc-button__label">GitHub</span>
+        </a>
+      </div>
+      <h1>QRCode Generator</h1>
+      <div class="mdc-card demo-card">
+        <div
+          id="qrcode"
+          class="mdc-card__primary-action demo-card__primary-action"
+          tabindex="0"
+        ></div>
+        <div class="mdc-card__actions">
+          <label
+            class="mdc-text-field mdc-text-field1 mdc-text-field--outlined"
+          >
+            <span class="mdc-notched-outline">
+              <span class="mdc-notched-outline__leading"></span>
+              <span class="mdc-notched-outline__notch">
+                <span class="mdc-floating-label" id="my-label-id2">QR</span>
+              </span>
+              <span class="mdc-notched-outline__trailing"></span>
+            </span>
+            <input
+              type="text"
+              class="mdc-text-field__input"
+              aria-labelledby="my-label-id2"
+              id="source"
+            />
+          </label>
+        </div>
+      </div>
+      <h1>UUIDv4 Generator</h1>
+      <div id="uuidcard" class="mdc-card demo-card">
+        <div class="mdc-card mdc-card--outlined">
+          <span id="uuid"></span>
+        </div>
+        <div class="mdc-touch-target-wrapper">
+          <button id="uuidBtn" class="mdc-button mdc-button1 mdc-button--touch">
+            <span class="mdc-button__ripple"></span>
+            <span class="mdc-button__touch"></span>
+            <span class="mdc-button__label">Generate</span>
+          </button>
+        </div>
+      </div>
+      <div id="icons" style="display: none"></div>
+      <h1>Text Art Generator</h1>
+      <div id="canvascard" class="mdc-card demo-card">
+        <label class="mdc-text-field mdc-text-field2 mdc-text-field--outlined">
+          <span class="mdc-notched-outline">
+            <span class="mdc-notched-outline__leading"></span>
+            <span class="mdc-notched-outline__notch">
+              <span class="mdc-floating-label" id="my-label-id">Text Art</span>
+            </span>
+            <span class="mdc-notched-outline__trailing"></span>
+          </span>
+          <input
+            type="text"
+            class="mdc-text-field__input"
+            aria-labelledby="my-label-id"
+            id="textArtText"
+            aria-controls="my-helper-id"
+            aria-describedby="my-helper-id"
+          />
+        </label>
+        <div class="mdc-text-field-helper-line">
+          <div
+            class="mdc-text-field-helper-text"
+            id="my-helper-id"
+            aria-hidden="true"
+          >
+            Tip: Try typing "Crystal", "Svelte", "Vue", "Dart" & More!
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="textart"></div>
+    <script type="module" src="/src/icons.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
