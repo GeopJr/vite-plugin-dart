@@ -7,17 +7,17 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "sass": "^1.42.1",
-    "vite": "^2.3.0"
+    "sass": "1.42.1",
+    "vite": "2.5.10"
   },
   "dependencies": {
-    "@iconify/icons-logos": "^1.1.10",
-    "@material/button": "^13.0.0",
-    "@material/card": "^13.0.0",
-    "@material/ripple": "^13.0.0",
-    "@material/textfield": "^13.0.0",
-    "@material/top-app-bar": "^13.0.0",
-    "@material/typography": "^13.0.0",
-    "ress": "^4.0.0"
+    "@iconify/icons-logos": "1.1.10",
+    "@material/button": "13.0.0",
+    "@material/card": "13.0.0",
+    "@material/ripple": "13.0.0",
+    "@material/textfield": "13.0.0",
+    "@material/top-app-bar": "13.0.0",
+    "@material/typography": "13.0.0",
+    "ress": "4.0.0"
   }
 }
