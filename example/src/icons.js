@@ -34,7 +34,7 @@ const icons = {
   ruby: rubyLogo,
   sass: sassLogo,
   less: lessLogo,
-  nativeScript: nativeScriptLogo,
+  nativescript: nativeScriptLogo,
   arch: archLogo,
   kde: kdeLogo,
   copyleft: copyleftLogo,
