@@ -15,7 +15,7 @@
 - Install the plugin:
 
 ```bash
-pnpm i -D vite-plugin-md # npm, yarn
+pnpm i -D vite-plugin-dart # npm, yarn
 ```
 
 - Install [Dart](https://dart.dev/get-dart)
