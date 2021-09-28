@@ -1,8 +1,9 @@
 {
   "name": "vite-plugin-dart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vite Dart Plugin",
   "main": "src/index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GeopJr/vite-plugin-dart.git"
