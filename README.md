@@ -5,8 +5,7 @@
 <h4 align="center">Import .dart files effortlessly.</h4>
 <p align="center">
   <br />
-    <a href="https://github.com/GeopJr/vite-plugin-dart/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-00579c.svg?style=for-the-badge&labelColor=3fc5ff" alt="Code Of Conduct" /></a>
-    <!-- <a href="https://github.com/GeopJr/vite-plugin-dart/blob/main/UNLICENSE"><img src="https://img.shields.io/badge/LICENSE-UNLICENSE-00579c.svg?style=for-the-badge&labelColor=3fc5ff" alt="UNLICENSE" /></a> -->
+    <a href="https://github.com/GeopJr/vite-plugin-dart/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.1-3fc5ff.svg?style=for-the-badge&labelColor=00579c" alt="Code Of Conduct" /></a>
 </p>
 
 #
@@ -49,6 +48,7 @@ All your Pub packages should work as expected! For an example take a look at the
 ## Options
 
 Here's the default options:
+
 ```js
 const defaultConfig = {
   dart: "dart",
@@ -78,6 +78,7 @@ const defaultConfig = {
 For most, you can read their description by running `dart compile js -h -v`.
 
 The ones that are not there are:
+
 ```
 dart: Dart binary location
 verbosity: Verbosity level (all, info, warning, error)
@@ -92,11 +93,42 @@ It uses JSDoc, so make sure to follow your IDE's annotations.
 
 See the [example](./example) folder.
 
+All tools used there are Dart packages!
+
 #
 
 ## How does it work?
 
 Dart can compile to JS using `dart2js`. This plugin compiles your Dart files using that at your OS' tmp folder and then after cleaning the generated sourcemaps, returns it to Vite which imports it.
+
+#
+
+## Deploying
+
+Most platforms do not provide `dart` pre-installed so you need to install it.
+
+The general workflow is: `Install Dart => npm i => dart pub get => npm run build`.
+
+For example, here's the Vercel config for this repo:
+
+```bash
+Build Command: cd example && npm run build
+
+Output Dir: ./example/dist
+
+Install Command: yum install unzip -y && cd example && if [ ! -d "./dart-sdk/" ]; then curl -L  https://storage.googleapis.com/dart-archive/channels/be/raw/latest/sdk/dartsdk-linux-x64-release.zip > dart.zip; fi && unzip -qq dart.zip && npm i && ./dart-sdk/bin/dart pub get
+```
+
+At the same time, [vite.config.js](./example/vite.config.js) has some options for this plugin based on the current environment:
+
+```js
+Dart({
+  // Optimizations set to 2 on prod
+  O: mode === "development" ? 1 : 2,
+  // Dart location when on Vercel (This is a custom env var on Vercel, set to true)
+  dart: process.env.VERCEL ? "./dart-sdk/bin/dart" : "dart",
+}),
+```
 
 #
 
