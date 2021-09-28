@@ -20,10 +20,10 @@ pnpm i -D vite-plugin-dart # npm, yarn
 
 - Install [Dart](https://dart.dev/get-dart)
 
-- Add `vite-plugin-dart` to your `vite.config.js`:
+- Add `vite-plugin-dart` to your `vite.config.mjs`:
 
 ```js
-// vite.config.js
+// vite.config.mjs (or .ts)
 import Dart from "vite-plugin-dart";
 
 export default {
@@ -119,7 +119,7 @@ Output Dir: ./example/dist
 Install Command: yum install unzip -y && cd example && if [ ! -d "./dart-sdk/" ]; then curl -L  https://storage.googleapis.com/dart-archive/channels/be/raw/latest/sdk/dartsdk-linux-x64-release.zip > dart.zip; fi && unzip -qq dart.zip && npm i && ./dart-sdk/bin/dart pub get
 ```
 
-At the same time, [vite.config.js](./example/vite.config.js) has some options for this plugin based on the current environment:
+At the same time, [vite.config.mjs](./example/vite.config.mjs) has some options for this plugin based on the current environment:
 
 ```js
 Dart({

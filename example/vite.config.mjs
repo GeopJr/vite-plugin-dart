@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
-import { resolve } from "path";
-import Dart from "../src/index";
+import Dart from "../src/index.js";
 
 export default defineConfig(({ _, mode }) => {
   return {
@@ -13,9 +12,7 @@ export default defineConfig(({ _, mode }) => {
     base: "./",
     build: {
       rollupOptions: {
-        input: {
-          main: resolve(__dirname, "index.html"),
-        },
+        input: "./index.html",
       },
     },
   };
