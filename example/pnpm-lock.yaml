@@ -9,7 +9,7 @@ specifiers:
   '@material/top-app-bar': 13.0.0
   '@material/typography': 13.0.0
   ress: 4.0.0
-  sass: 1.43.5
+  sass: 1.44.0
   vite: 2.6.14
 
 dependencies:
@@ -23,8 +23,8 @@ dependencies:
   ress: 4.0.0
 
 devDependencies:
-  sass: 1.43.5
-  vite: 2.6.14_sass@1.43.5
+  sass: 1.44.0
+  vite: 2.6.14_sass@1.44.0
 
 packages:
 
@@ -449,6 +449,10 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /immutable/4.0.0:
+    resolution: {integrity: sha512-zIE9hX70qew5qTUjSS7wi1iwj/l7+m54KWU247nhM3v806UdGj1yDndXj+IOYxxtW9zyLI+xqFNZjTuDaLUqFw==}
+    dev: true
+
   /is-binary-path/2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
@@ -538,12 +542,13 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /sass/1.43.5:
-    resolution: {integrity: sha512-WuNm+eAryMgQluL7Mbq9M4EruyGGMyal7Lu58FfnRMVWxgUzIvI7aSn60iNt3kn5yZBMR7G84fAGDcwqOF5JOg==}
+  /sass/1.44.0:
+    resolution: {integrity: sha512-0hLREbHFXGQqls/K8X+koeP+ogFRPF4ZqetVB19b7Cst9Er8cOR0rc6RU7MaI4W1JmUShd1BPgPoeqmmgMMYFw==}
     engines: {node: '>=8.9.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.2
+      immutable: 4.0.0
     dev: true
 
   /source-map-js/0.6.2:
@@ -562,7 +567,7 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: false
 
-  /vite/2.6.14_sass@1.43.5:
+  /vite/2.6.14_sass@1.44.0:
     resolution: {integrity: sha512-2HA9xGyi+EhY2MXo0+A2dRsqsAG3eFNEVIo12olkWhOmc8LfiM+eMdrXf+Ruje9gdXgvSqjLI9freec1RUM5EA==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -582,7 +587,7 @@ packages:
       postcss: 8.3.8
       resolve: 1.20.0
       rollup: 2.57.0
-      sass: 1.43.5
+      sass: 1.44.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
