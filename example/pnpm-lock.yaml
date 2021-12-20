@@ -10,7 +10,7 @@ specifiers:
   '@material/typography': 13.0.0
   ress: 4.0.0
   sass: 1.45.0
-  vite: 2.7.3
+  vite: 2.7.4
 
 dependencies:
   '@iconify/icons-logos': 1.1.11
@@ -24,7 +24,7 @@ dependencies:
 
 devDependencies:
   sass: 1.45.0
-  vite: 2.7.3_sass@1.45.0
+  vite: 2.7.4_sass@1.45.0
 
 packages:
 
@@ -516,8 +516,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /postcss/8.4.4:
-    resolution: {integrity: sha512-joU6fBsN6EIer28Lj6GDFoC/5yOZzLCfn0zHAn/MYXI7aPt4m4hK5KC5ovEZXy+lnCjmYIbQWngvju2ddyEr8Q==}
+  /postcss/8.4.5:
+    resolution: {integrity: sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.1.30
@@ -577,8 +577,8 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: false
 
-  /vite/2.7.3_sass@1.45.0:
-    resolution: {integrity: sha512-GAY1P+9fLJOju1SRm8+hykVnEXog+E+KXuqqyMBQDriKCUIKzWnPn142yNNhSdf/ixYGYdUa5ce3A8WaEajzGw==}
+  /vite/2.7.4_sass@1.45.0:
+    resolution: {integrity: sha512-f+0426k9R/roz5mRNwJlQ+6UOnhCwIypJSbfgCmsVzVJe9jTTM5iRX2GWYUean+iqPBWaU/dYLryx9AoH2pmrw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -594,7 +594,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.13.15
-      postcss: 8.4.4
+      postcss: 8.4.5
       resolve: 1.20.0
       rollup: 2.60.2
       sass: 1.45.0
