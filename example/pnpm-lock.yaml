@@ -10,7 +10,7 @@ specifiers:
   '@material/typography': 13.0.0
   ress: 4.0.0
   sass: 1.45.1
-  vite: 2.7.6
+  vite: 2.7.7
 
 dependencies:
   '@iconify/icons-logos': 1.1.11
@@ -24,7 +24,7 @@ dependencies:
 
 devDependencies:
   sass: 1.45.1
-  vite: 2.7.6_sass@1.45.1
+  vite: 2.7.7_sass@1.45.1
 
 packages:
 
@@ -577,8 +577,8 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: false
 
-  /vite/2.7.6_sass@1.45.1:
-    resolution: {integrity: sha512-PBNoc87rDYLtkpFU9dbVeGdbcyKzz6c34oScqivE3FEa3BhVa4ASupCzcz0eDIiSECovfLcQnLUJt9vhiEU08g==}
+  /vite/2.7.7_sass@1.45.1:
+    resolution: {integrity: sha512-Nm4ingl//gMSj/p1aCBHuTc5Fd8W8Mwdci/HUvqCVq8xaJqF7z08S/LRq1M9kS0jRfJk1/f/CwUyQAr6YgsOLw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
