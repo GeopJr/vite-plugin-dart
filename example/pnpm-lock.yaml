@@ -9,7 +9,7 @@ specifiers:
   '@material/top-app-bar': 13.0.0
   '@material/typography': 13.0.0
   ress: 4.0.0
-  sass: 1.45.1
+  sass: 1.45.2
   vite: 2.7.9
 
 dependencies:
@@ -23,8 +23,8 @@ dependencies:
   ress: 4.0.0
 
 devDependencies:
-  sass: 1.45.1
-  vite: 2.7.9_sass@1.45.1
+  sass: 1.45.2
+  vite: 2.7.9_sass@1.45.2
 
 packages:
 
@@ -551,8 +551,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /sass/1.45.1:
-    resolution: {integrity: sha512-pwPRiq29UR0o4X3fiQyCtrESldXvUQAAE0QmcJTpsI4kuHHcLzZ54M1oNBVIXybQv8QF2zfkpFcTxp8ta97dUA==}
+  /sass/1.45.2:
+    resolution: {integrity: sha512-cKfs+F9AMPAFlbbTXNsbGvg3y58nV0mXA3E94jqaySKcC8Kq3/8983zVKQ0TLMUrHw7hF9Tnd3Bz9z5Xgtrl9g==}
     engines: {node: '>=8.9.0'}
     hasBin: true
     dependencies:
@@ -577,7 +577,7 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: false
 
-  /vite/2.7.9_sass@1.45.1:
+  /vite/2.7.9_sass@1.45.2:
     resolution: {integrity: sha512-CyopIJIRrc26Wnbkch5BCHFhQodzeV4jjSegLAEw1RImvXSuoOo2SfpEW9zRVi188WmjJwCqCaoG25C0r4nekw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -597,7 +597,7 @@ packages:
       postcss: 8.4.5
       resolve: 1.20.0
       rollup: 2.60.2
-      sass: 1.45.1
+      sass: 1.45.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
