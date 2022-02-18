@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "sass": "1.49.7",
+    "sass": "1.49.8",
     "vite": "2.8.3"
   },
   "dependencies": {
