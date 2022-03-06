@@ -50,7 +50,7 @@ Object.keys(icons).forEach((icon) => {
   img.src =
     "data:image/svg+xml;base64," +
     btoa(
-      '<svg width="512" height="512" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+      '<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">' +
         icons[icon].body +
         "</svg>"
     );
