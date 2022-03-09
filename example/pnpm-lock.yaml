@@ -8,7 +8,7 @@ specifiers:
   '@material/textfield': 13.0.0
   '@material/top-app-bar': 13.0.0
   '@material/typography': 13.0.0
-  ress: 4.0.0
+  ress: 5.0.2
   sass: 1.49.9
   vite: 2.8.6
 
@@ -20,7 +20,7 @@ dependencies:
   '@material/textfield': 13.0.0
   '@material/top-app-bar': 13.0.0
   '@material/typography': 13.0.0
-  ress: 4.0.0
+  ress: 5.0.2
 
 devDependencies:
   sass: 1.49.9
@@ -585,8 +585,8 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /ress/4.0.0:
-    resolution: {integrity: sha512-awpQM9e6VL6ljw4XuH/ww2q4IEU0SAY9Lcvu4h4nIB5c5XhTUXH3Me8WA0zW3s3naU79lY8uVUJg30dvKJ5cNw==}
+  /ress/5.0.2:
+    resolution: {integrity: sha512-oHBtOWo/Uc8SzQMbQNIKTcgi8wKmAs7IlNlRywmXudbOtF+c27FlOIq7tnwLDVcTywe6JXYo1pDXHO6kABwNYA==}
     dev: false
 
   /rollup/2.60.2:
