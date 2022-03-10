@@ -18,6 +18,6 @@
     "@material/textfield": "13.0.0",
     "@material/top-app-bar": "13.0.0",
     "@material/typography": "13.0.0",
-    "ress": "4.0.0"
+    "ress": "5.0.2"
   }
 }
