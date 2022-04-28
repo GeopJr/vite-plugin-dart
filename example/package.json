@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "@iconify/icons-logos": "1.2.6",
-    "@material/button": "13.0.0",
-    "@material/card": "13.0.0",
-    "@material/ripple": "13.0.0",
-    "@material/textfield": "13.0.0",
-    "@material/top-app-bar": "13.0.0",
-    "@material/typography": "13.0.0",
+    "@material/button": "14.0.0",
+    "@material/card": "14.0.0",
+    "@material/ripple": "14.0.0",
+    "@material/textfield": "14.0.0",
+    "@material/top-app-bar": "14.0.0",
+    "@material/typography": "14.0.0",
     "ress": "5.0.2"
   }
 }
