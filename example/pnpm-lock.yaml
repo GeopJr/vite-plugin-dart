@@ -9,7 +9,7 @@ specifiers:
   '@material/top-app-bar': 14.0.0
   '@material/typography': 14.0.0
   ress: 5.0.2
-  sass: 1.52.1
+  sass: 1.52.2
   vite: 2.9.9
 
 dependencies:
@@ -23,8 +23,8 @@ dependencies:
   ress: 5.0.2
 
 devDependencies:
-  sass: 1.52.1
-  vite: 2.9.9_sass@1.52.1
+  sass: 1.52.2
+  vite: 2.9.9_sass@1.52.2
 
 packages:
 
@@ -540,7 +540,7 @@ packages:
     dev: true
 
   /is-extglob/2.1.1:
-    resolution: {integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=}
+    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -617,8 +617,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /sass/1.52.1:
-    resolution: {integrity: sha512-fSzYTbr7z8oQnVJ3Acp9hV80dM1fkMN7mSD/25mpcct9F7FPBMOI8krEYALgU1aZoqGhQNhTPsuSmxjnIvAm4Q==}
+  /sass/1.52.2:
+    resolution: {integrity: sha512-mfHB2VSeFS7sZlPv9YohB9GB7yWIgQNTGniQwfQ04EoQN0wsQEv7SwpCwy/x48Af+Z3vDeFXz+iuXM3HK/phZQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -648,7 +648,7 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: false
 
-  /vite/2.9.9_sass@1.52.1:
+  /vite/2.9.9_sass@1.52.2:
     resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -668,7 +668,7 @@ packages:
       postcss: 8.4.13
       resolve: 1.22.0
       rollup: 2.60.2
-      sass: 1.52.1
+      sass: 1.52.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
