@@ -11,7 +11,7 @@
     "vite": "2.9.12"
   },
   "dependencies": {
-    "@iconify/icons-logos": "1.2.6",
+    "@iconify/icons-logos": "1.2.7",
     "@material/button": "14.0.0",
     "@material/card": "14.0.0",
     "@material/ripple": "14.0.0",
