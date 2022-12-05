@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "sass": "1.56.1",
-    "vite": "3.2.4"
+    "vite": "3.2.5"
   },
   "dependencies": {
     "@iconify/icons-logos": "1.2.20",
