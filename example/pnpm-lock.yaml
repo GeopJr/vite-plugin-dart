@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify/icons-logos': 1.2.20
+  '@iconify/icons-logos': 1.2.21
   '@material/button': 14.0.0
   '@material/card': 14.0.0
   '@material/ripple': 14.0.0
@@ -13,7 +13,7 @@ specifiers:
   vite: 4.0.3
 
 dependencies:
-  '@iconify/icons-logos': 1.2.20
+  '@iconify/icons-logos': 1.2.21
   '@material/button': 14.0.0
   '@material/card': 14.0.0
   '@material/ripple': 14.0.0
@@ -226,8 +226,8 @@ packages:
     dev: true
     optional: true
 
-  /@iconify/icons-logos/1.2.20:
-    resolution: {integrity: sha512-ZzBQejtujcYKpsNw9AQLJWDmIwV3Elj3CFLPYJlvzEyF9WUpDtCTXxp9ZK3WQNpbhGboemqp0HVC7m8LBuXBjw==}
+  /@iconify/icons-logos/1.2.21:
+    resolution: {integrity: sha512-nyIpYKcaWgJQZyNv2+1b8iyMqe1NkGIWXGeMZF25yVH8VCt+P8lPhs8Twj0gxwLhobJYGY/FG1Ipq5+M6R4dTw==}
     dependencies:
       '@iconify/types': 1.0.12
     dev: false
